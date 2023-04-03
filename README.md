@@ -1,6 +1,7 @@
 # Drawing App
 
 A small and simple, one-page drawing app, which allows users to draw using different widths and colors lines. The app was built using HTML, CSS, and JavaScript.
+
 ## How to use
 
 1. Open the index.html file in your web browser to access the drawing app.

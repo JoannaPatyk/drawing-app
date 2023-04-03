@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Heebo', sans-serif;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #524f4f;
+}
+
+body,
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: #f0f8ff;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-weight: 200;
+}
+
+canvas {
+    border: 2px solid #c0c0c0;
+    box-shadow: 0 0 5px #d3d3d3;
+    background-color: #f0f8ff;
+}
+
+.background {
+    position: absolute;
+    bottom: 0;
+    left: -5%;
+    height: 90%;
+    opacity: 0.5;
+}
+
+.toolbox {
+    display: flex;
+    background-color: #d3d3d3;
+    border: 1px solid #c0c0c0;
+    box-shadow: 0 0 5px #d3d3d3;
+    width: 804px;
+    padding: 1rem;
+}
+
+.toolbox > * {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: inherit;
+    font-weight: 100;
+    border: none;
+    font-size: 1.8rem;
+    height: 45px;
+    width: 45px;
+    margin: 0.25rem;
+    padding: 0.25rem;
+    transition: 0.5s linear;
+    background-color: #f0f8ff;
+}
+
+.toolbox > *:hover {
+    background-color: #333;
+    color: #f0f8ff;
+}
+
+.toolbox > *:last-child {
+    margin-left: auto;
+    width: 150px;
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.toolbox > *:last-child span {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-left: 4px;
+}
+
+.toolbox button {
+    cursor: pointer;
+}
