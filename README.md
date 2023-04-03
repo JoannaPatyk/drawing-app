@@ -11,4 +11,6 @@ A small and simple, one-page drawing app, which allows users to draw using diffe
 
 ## Quick setup and start
 
-In order to run webpage you need HTTP sever which serve the site, for example [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
+Firstly compile with `npm run compile`.
+
+Then, in order to run webpage you need HTTP sever which serve the site, for example [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
